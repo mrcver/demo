@@ -1,0 +1,19 @@
+{
+    "repositories": [
+        {
+            "type": "path",
+            "url": "../redis-queue",
+            "options": {
+                "symlink": false
+            }
+        }
+    ],
+    "require": {
+        "zhaokongdong/redis-queue": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    }
+}

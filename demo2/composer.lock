@@ -1,0 +1,55 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "87724018c80845e3fe35cc1e380058c9",
+    "packages": [
+        {
+            "name": "zhaokongdong/redis-queue",
+            "version": "1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/zhaokongdong/redis-queue.git",
+                "reference": "9fe03f2aa3991f99e9da3d4dcf23afe29e517e0d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/zhaokongdong/redis-queue/zipball/9fe03f2aa3991f99e9da3d4dcf23afe29e517e0d",
+                "reference": "9fe03f2aa3991f99e9da3d4dcf23afe29e517e0d",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "RedisQueue\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Tim Zhao",
+                    "email": "zhaokongdong@gmail.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A simple php queue based on redis",
+            "time": "2018-08-09T04:14:13+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
