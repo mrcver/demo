@@ -1,0 +1,14 @@
+{
+    "repositories": [
+        {
+            "type": "path",
+            "url": "/var/www/html/test/queue/redis-queue",
+            "options": {
+                "symlink": true
+            }
+        }
+    ],
+    "require": {
+        "zhaokongdong/redis-queue": "dev-master"
+    }
+}
